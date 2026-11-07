@@ -1,6 +1,6 @@
 <a href="https://hsk10x2.vercel.app"><img src="assets/hero.svg" width="100%" alt="Heeseong Kim (김예준) — Builder & Founder, 10x4 Engineer. Founder. Builder. Creator." /></a>
 
-<img src="assets/creed.svg" width="100%" alt="Why I build: For people, toward people, within people. I am an idealist, and I want to build a world where everyone is happy. Motto: God Left No Answer." />
+<img src="assets/creed.svg" width="100%" alt="Why I build: For people, toward people, within people. I am an idealist, and I want to build a world where everyone is happy. Motto: God Left No Answer. My GitHub contributions over the last year, drawn as a halftone field." />
 
 ```text
 frontier   Physical AI · ZK · DeFi protocols · Harness / Orchestration engineering
