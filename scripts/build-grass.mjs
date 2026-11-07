@@ -28,7 +28,7 @@ weeks.forEach((w, c) => {
   const x = X0 + c * P;
   const first = new Date(w.contributionDays[0].date + "T00:00:00Z");
   const m = first.getUTCMonth();
-  if (m !== lastMonth && first.getUTCDate() <= 7 && c < weeks.length - 1) {
+  if (m !== lastMonth && first.getUTCDate() <= 7) {
     months += `<text x="${x}" y="${Y0 - 10}" class="lbl">${MONTHS[m]}</text>`;
     lastMonth = m;
   }
