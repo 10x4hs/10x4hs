@@ -1,15 +1,13 @@
-<a href="https://hsk10x2.vercel.app"><img src="assets/hero.svg" width="100%" alt="Heeseong Kim — Founder. Builder. Creator." /></a>
+<a href="https://hsk10x2.vercel.app"><img src="assets/hero.svg" width="100%" alt="Heeseong Kim (김예준) — Builder & Founder, 10x4 Engineer. Founder. Builder. Creator." /></a>
 
-### Why I build.
-
-> **For people, toward people, within people.**
-> I am an idealist, and I want to build a world where everyone is happy.
+<img src="assets/creed.svg" width="100%" alt="Why I build: For people, toward people, within people. I am an idealist, and I want to build a world where everyone is happy. Motto: God Left No Answer." />
 
 ```text
-now      building my first startup
-motto    God Left No Answer
-reads    Plato · Nietzsche · Wittgenstein
-school   Daedeok Software Meister High School
+frontier   Physical AI · ZK · DeFi protocols · Harness / Orchestration engineering
+tools      PyTorch · Python · Claude Code · Cloudflare · TypeScript · Java
+school     Daedeok Software Meister HS — Student Body Vice President (12th)
+community  DsmMFA — Community Leader & CMO · Highference organizer
+before     Konyang Univ. Gifted Center for Information Security (2024)
 ```
 
 ### Built.
@@ -22,19 +20,23 @@ school   Daedeok Software Meister High School
   <sub>`Python` `JavaScript`</sub>
 - **[oh-my-dm-discord](https://github.com/10x4hs/oh-my-dm-discord)** — all your DMs in one terminal messenger  
   <sub>`TypeScript` `TUI`</sub>
-- **[PART](https://github.com/10x4hs/p-art)** — a school gallery that hangs student projects like artworks  
-  <sub>`Node.js` `SQLite`</sub>
 - **[Gehry](https://gehry55.vercel.app) · [Ando](https://ando55.vercel.app)** — famous buildings rebuilt in web 3D from LiDAR data  
   <sub>`Three.js`</sub>
+- **[hsk10x2.vercel.app](https://hsk10x2.vercel.app)** — my NFC business card: WebGL halftone field, assembling type, 3D books  
+  <sub>`WebGL` `GLSL` `Canvas`</sub>
 
-### Now → Next.
+### Writing.
+
+**Zero to One** — a weekly newsletter on going from 0 to 1, read by 637 subscribers. [Subscribe on LinkedIn ↗](https://www.linkedin.com/in/10x4hs/)
+
+<img src="assets/notes.svg" width="100%" alt="Field notes: Say less, ship more. The best survey is a payment. Perfectionism isn't skill, it's self-censorship." />
 
 <img src="assets/route.svg" width="100%" alt="Now: Daejeon · Seoul. Next: San Francisco, this year (goal). 9,029 km. I am starting my company in Silicon Valley." />
 
-<sub>*My beginning is small, but I will make the end great.*</sub>
+<p align="center"><sub><i>My beginning is small, but I will make the end great.</i></sub></p>
 
-<img src="https://skillicons.dev/icons?i=ts,js,python,nodejs,cloudflare,threejs,vercel,sqlite&theme=dark" height="34" alt="TypeScript, JavaScript, Python, Node.js, Cloudflare, Three.js, Vercel, SQLite" />
-
-### Get in touch.
-
-[hsk10x2.vercel.app](https://hsk10x2.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/10x4hs) &nbsp;·&nbsp; [1gmltjd0@gmail.com](mailto:1gmltjd0@gmail.com)
+<p align="center">
+  <a href="https://hsk10x2.vercel.app">hsk10x2.vercel.app</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/10x4hs">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:1gmltjd0@gmail.com">1gmltjd0@gmail.com</a>
+</p>

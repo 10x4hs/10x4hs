@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="320" viewBox="0 0 880 320" role="img" aria-labelledby="t">
+  <title id="t">Why I build. For people, toward people, within people. I am an idealist, and I want to build a world where everyone is happy. Motto: God Left No Answer.</title>
+  <defs>
+    <pattern id="dots" width="10" height="17.32" patternUnits="userSpaceOnUse">
+      <circle cx="2.5" cy="4.33" r="1.2" fill="#fff"/>
+      <circle cx="7.5" cy="12.99" r="1.2" fill="#fff"/>
+    </pattern>
+    <mask id="dotMask"><rect width="880" height="320" fill="url(#dots)"/></mask>
+    <radialGradient id="blue" r=".5"><stop offset="0" stop-color="#3a63ff"/><stop offset=".6" stop-color="#15245e" stop-opacity=".5"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="silver" x1="0" x2="1">
+      <stop offset="0" stop-color="#eceef1"/><stop offset=".36" stop-color="#c9ccd1"/><stop offset=".68" stop-color="#a7abb3"/><stop offset="1" stop-color="#dcdee2"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="880" height="320" rx="22"/></clipPath>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .drift { animation: drift 16s ease-in-out infinite alternate; }
+      @keyframes drift { to { transform: translate(120px, -40px) } }
+      .in { opacity: 0; animation: appear 1s cubic-bezier(.28,.11,.32,1) forwards; }
+      @keyframes appear { from { opacity: 0; transform: translateY(16px) } to { opacity: 1; transform: none } }
+      .d1 { animation-delay: .2s } .d2 { animation-delay: .7s } .d3 { animation-delay: 1.2s } .d4 { animation-delay: 1.7s } .d5 { animation-delay: 2.3s }
+      .ghost { opacity: 0; animation: ghost 2.4s cubic-bezier(.28,.11,.32,1) .4s forwards; }
+      @keyframes ghost { from { opacity: 0; transform: translateX(24px) } to { opacity: 1; transform: none } }
+      @media (prefers-reduced-motion: reduce) { .drift { animation: none } .in, .ghost { animation: none; opacity: 1 } }
+    </style>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="880" height="320" fill="#060914"/>
+    <g mask="url(#dotMask)"><g class="drift"><ellipse cx="160" cy="330" rx="380" ry="220" fill="url(#blue)"/></g></g>
+
+    <!-- motto, set like the site: huge and quiet -->
+    <g class="ghost">
+      <text x="836" y="70" text-anchor="end" class="mono" font-size="11" letter-spacing="2" fill="#8b8b90">MOTTO</text>
+      <text x="836" y="126" text-anchor="end" class="sans" font-size="46" font-weight="700" letter-spacing="-1.4" fill="#2c2c2e">God Left</text>
+      <text x="836" y="176" text-anchor="end" class="sans" font-size="46" font-weight="700" letter-spacing="-1.4" fill="#2c2c2e">No Answer</text>
+    </g>
+
+    <text x="44" y="70" class="mono in d1" font-size="11" letter-spacing="2" fill="#8b8b90">WHY I BUILD</text>
+    <text x="44" y="128" class="sans in d2" font-size="38" font-weight="700" letter-spacing="-1" fill="#f5f5f7">For people,</text>
+    <text x="44" y="174" class="sans in d3" font-size="38" font-weight="700" letter-spacing="-1" fill="url(#silver)">toward people,</text>
+    <text x="44" y="220" class="sans in d4" font-size="38" font-weight="700" letter-spacing="-1" fill="#8e9099">within people.</text>
+    <text x="44" y="272" class="sans in d5" font-size="15" fill="#a1a1a6">I am an idealist, and I want to build a world where everyone is happy.</text>
+  </g>
+  <rect x=".5" y=".5" width="879" height="319" rx="22" fill="none" stroke="#fff" stroke-opacity=".1"/>
+</svg>
