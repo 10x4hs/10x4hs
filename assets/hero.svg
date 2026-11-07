@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="320" viewBox="0 0 880 320" role="img" aria-labelledby="t">
+  <title id="t">Heeseong Kim — Founder. Builder. Creator.</title>
+  <defs>
+    <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.1" fill="#ffffff"/>
+    </pattern>
+    <radialGradient id="warm" cx="78%" cy="70%" r="45%">
+      <stop offset="0" stop-color="#ff7a3d" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ff7a3d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cool" cx="62%" cy="8%" r="40%">
+      <stop offset="0" stop-color="#3d6bff" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#3d6bff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fade" cx="80%" cy="50%" r="70%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="m"><rect width="880" height="320" fill="url(#fade)"/></mask>
+    <clipPath id="card"><rect width="880" height="320" rx="18"/></clipPath>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .caret { animation: blink 1.1s steps(1) infinite; }
+      .glow  { animation: breathe 7s ease-in-out infinite; }
+      .scan  { animation: scan 6s linear infinite; }
+      .live  { animation: pulse 2s ease-in-out infinite; }
+      @keyframes blink { 50% { opacity: 0 } }
+      @keyframes breathe { 50% { opacity: .55 } }
+      @keyframes scan { from { transform: translateY(-40px) } to { transform: translateY(360px) } }
+      @keyframes pulse { 50% { opacity: .25 } }
+      @media (prefers-reduced-motion: reduce) { .caret, .glow, .scan, .live { animation: none } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="880" height="320" fill="#050505"/>
+    <g class="glow">
+      <rect width="880" height="320" fill="url(#warm)"/>
+      <rect width="880" height="320" fill="url(#cool)"/>
+    </g>
+    <rect width="880" height="320" fill="url(#dots)" mask="url(#m)"/>
+    <rect class="scan" x="0" y="0" width="880" height="1" fill="#ffffff" opacity=".06"/>
+
+    <!-- top bar -->
+    <text x="40" y="44" class="mono" font-size="13" font-weight="500" fill="#8e8e93">~/10x4hs</text>
+    <circle class="live" cx="676" cy="39" r="3.5" fill="#30d158"/>
+    <text x="688" y="44" class="mono" font-size="12" fill="#8e8e93">building · v0.1</text>
+
+    <!-- name -->
+    <text x="40" y="146" class="sans" font-size="64" font-weight="700" letter-spacing="-2" fill="#f5f5f7">Heeseong Kim</text>
+    <text x="42" y="174" class="sans" font-size="13" fill="#8e8e93">김예준</text>
+
+    <!-- tagline -->
+    <text x="40" y="226" class="sans" font-size="26" font-weight="700" letter-spacing="-.5" fill="#f5f5f7">Founder. Builder.</text>
+    <text x="40" y="258" class="sans" font-size="26" font-weight="700" letter-spacing="-.5" fill="#f5f5f7">Creator.</text>
+    <rect class="caret" x="139" y="238" width="2.5" height="26" fill="#ff7a3d"/>
+
+    <!-- footer line -->
+    <text x="40" y="296" class="mono" font-size="11.5" fill="#636366">AX Engineer · 10x Engineer · Hardcore Generalist</text>
+    <text x="840" y="296" text-anchor="end" class="mono" font-size="11.5" fill="#636366">Daejeon → San Francisco</text>
+  </g>
+  <rect x=".5" y=".5" width="879" height="319" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+</svg>
