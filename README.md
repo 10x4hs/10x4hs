@@ -28,7 +28,7 @@ const me = {
   role:      ["Founder", "Builder", "Creator"],
   building:  "my first startup — products that change how people learn, read and work",
   shipping:  "fast: idea → prototype → real users → repeat",
-  stack:     "whatever ships — TS · JS · Python · Cloudflare · Claude",
+  stack:     "Claude, Blockchain, Backend, Frontend, Certified Investment Manger",
   nextStop:  "Silicon Valley 🌉",
 };
 ```
